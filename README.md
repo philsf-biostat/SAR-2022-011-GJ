@@ -1,16 +1,15 @@
-# [title]
+# Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis
 
-Objective
+Quantify the association between leadership commitment and
+employee professional development
+at NASA from the 2020 Federal Employee Viewpoint Survey, disregarding the FEVS survey weights.
 
-Statistical Analysis for PERSON (PLACE, yyyy)
+Statistical Analysis for techsavvy32 (fiverr.com, 2022)
 
 ## Analyses performed
 
 1. Descriptive analysis
 1. Inferential analysis
-1. Power analysis
-1. Missing data imputation
-1. Statistical models
 
 ## Documents
 
@@ -30,13 +29,17 @@ Statistical Analysis for PERSON (PLACE, yyyy)
 - [Online visualization][reportviz-v01]
 - [PDF][pdf-v01]
 
-<!-- ## Associated analyses -->
+## Associated analyses
 
-<!-- This analysis is part of a larger project and is supported by other analyses, linked below. -->
+This analysis is part of a larger project and is supported by other analyses, linked below.
 
-<!-- **[assoc_title]** -->
+**Association between leadership commitment and professional development at NASA (2020): sex-adjusted stratified analysis**
 
-<!-- <[assoc_link]> -->
+<https://philsf-biostat.github.io/SAR-2022-008-GJ/>
+
+**Association between leadership commitment and telework satisfaction at NASA (2020): sex-adjusted stratified analysis**
+
+<https://philsf-biostat.github.io/SAR-2022-007-GJ/>
 
 ## Portfolio
 
