@@ -1,6 +1,6 @@
 ---
 title: "Analytical Plan for [title]"
-subtitle: 'DOCUMENT: SAP-yyyy-NNN-XX-v01'
+subtitle: 'DOCUMENT: SAP-2022-011-GJ-v01'
 author: '**From:** Felipe Figueiredo **To:** ___'
 date: "`r Sys.Date()`"
 output:
@@ -194,7 +194,7 @@ This analysis will be performed using statistical software `R` version `r getRve
 
 # References
 
-- **SAR-yyyy-NNN-XX-v01** -- [title]
+- **SAR-2022-011-GJ-v01** -- [title]
 <!-- - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). New York: Routledge. -->
 - Zarin DA, et al. The ClinicalTrials.gov results database -- update and key issues. N Engl J Med 2011;364:852-60 (<https://doi.org/10.1056/NEJMsa1012065>).
 - Gamble C, et al. Guidelines for the Content of Statistical Analysis Plans in Clinical Trials. JAMA. 2017;318(23):2337–2343 (<https://doi.org/10.1001/jama.2017.18556>).
@@ -205,12 +205,12 @@ This document was elaborated following recommendations on the structure for Stat
 
 ## Availability
 
-Both this analytical plan and the corresponding analysis report (**SAR-yyyy-NNN-XX-v01**) can be downloaded in the following address:
+Both this analytical plan and the corresponding analysis report (**SAR-2022-011-GJ-v01**) can be downloaded in the following address:
 
-<https://philsf-biostat.github.io/SAR-yyyy-NNN-XX/>
+<https://philsf-biostat.github.io/SAR-2022-011-GJ/>
 
 <!-- The client has requested that this analysis be kept confidential. -->
-<!-- Both this analytical plan and the corresponding analysis report (**SAR-yyyy-NNN-XX-v01**) are therefore not published online and only the title and year of the analysis will be included in the consultant's Portfolio. -->
+<!-- Both this analytical plan and the corresponding analysis report (**SAR-2022-011-GJ-v01**) are therefore not published online and only the title and year of the analysis will be included in the consultant's Portfolio. -->
 <!-- The portfolio is available at: -->
 
 <!-- <https://philsf-biostat.github.io/> -->
