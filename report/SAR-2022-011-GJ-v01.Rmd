@@ -1,0 +1,146 @@
+---
+title: "[title]"
+subtitle: 'DOCUMENTO: SAR-yyyy-NNN-XX-v01'
+author: '**De:** Felipe Figueiredo **Para:** ___'
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    fig_caption: yes
+    fig_height: 6
+    fig_width: 6
+    keep_md: yes
+    number_sections: yes
+    toc: yes
+  pdf_document:
+    number_sections: yes
+    toc: yes
+  word_document:
+    fig_caption: yes
+    fig_height: 6
+    fig_width: 6
+    reference_docx: misc/style_SAR_pt.docx
+    toc: yes
+toc-title: "Sumário"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_knit$set(root.dir = normalizePath(".."))
+options(scipen = 999)
+library(pander)
+library(knitr)
+panderOptions('table.style', 'rmarkdown')
+panderOptions('table.split.table', 160)
+```
+
+---
+
+\newpage
+
+**[title]**
+
+**Histórico do documento**
+
+```{r history}
+Version <- c("01")
+Changes <- c("Versão inicial")
+history <- cbind(Version, Changes)
+colnames(history) <- c("Versão", "Alterações")
+# pander(history, split.cells = 70)
+kable(history)
+```
+
+---
+
+# Lista de abreviaturas
+
+# Contexto
+
+## Objetivos
+
+## Recepção e tratamento dos dados
+
+# Metodologia
+
+```{r results, include=FALSE}
+source("scripts/results.R", encoding = 'UTF-8')
+```
+
+## Variáveis
+
+### Desfechos primário e secundário
+
+### Covariáveis
+
+## Análises Estatísticas
+
+Esta análise foi realizada utilizando-se o software `R` versão `r getRversion()`.
+
+# Resultados
+
+## População do estudo e acompanhamento
+
+```{r tab_desc}
+tab_desc %>%
+    as_kable(
+    caption = "**Tabela 1** caption"
+  )
+```
+
+```{r fig1, fig.cap="**Figura 1** caption"}
+# ![Age](../figures/outcome.png)
+# knitr::include_graphics("../figures/outcome.png", error = FALSE)
+```
+
+## Análise inferencial
+
+```{r tab_inf}
+tab_inf %>%
+    as_kable(
+    caption = "**Tabela 2** caption"
+  )
+```
+
+# Observações e limitações
+
+# Conclusões
+
+# Referências
+
+- **SAP-yyyy-NNN-XX-v01** -- Plano Analítico para [title]
+
+# Apêndice
+
+## Análise exploratória de dados
+
+```{r A1, fig.cap="**Figura A1** Distribuição da idade na população do estudo."}
+# ![Age](../figures/distr_age.png)
+# knitr::include_graphics("../figures/distr_age.png", error = FALSE)
+```
+
+## Disponibilidade
+
+Tanto este documento como o plano analítico correspondente (**SAP-yyyy-NNN-XX-v01**) podem ser obtidos no seguinte endereço:
+
+<!-- Este documento pode ser obtido no seguinte endereço: -->
+
+<https://philsf-biostat.github.io/SAR-yyyy-NNN-XX/>
+
+<!-- O cliente solicitou que esta análise seja mantida confidencial. -->
+<!-- Tanto este documento como o plano analítico correspondente (**SAP-yyyy-NNN-XX-v01**) portanto não foram publicados online e apenas o título e o ano da análise foram incluídas no portfólio do consultor. -->
+<!-- O portfólio pode ser visto em: -->
+
+<!-- <https://philsf-biostat.github.io/> -->
+
+## Dados utilizados
+
+Os dados utilizados neste relatório não podem ser publicados online por questões de sigilo.
+
+```{r data}
+# print analytical of analytical_mockup whether it is the private or public version of the SAR
+
+# analytical %>%
+#   pander(caption = "**Tabela A1** Tabela de dados analíticos")
+analytical_mockup %>%
+  pander(caption = "**Tabela A1** Estrutura da tabela de dados analíticos")
+```
