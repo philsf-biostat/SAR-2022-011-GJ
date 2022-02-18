@@ -14,14 +14,25 @@ gg <- analytical %>%
 # plots -------------------------------------------------------------------
 
 gg.outcome <- gg +
-  geom_density(aes(outcome, fill = group), alpha = .8) +
-  xlab(attr(analytical$outcome, "label")) +
+  geom_bar(aes(dv2, fill = dsex), position = "fill") +
+  coord_flip() +
+  scale_y_continuous(labels = scales::label_percent()) +
+  labs(fill = "Sex") +
+  xlab(attr(analytical$dv, "label")) +
   ylab("")
 
-# cool facet trick from https://stackoverflow.com/questions/3695497 by JWilliman
-# gg +
-#   geom_histogram(bins = 5, aes(outcome, y = ..count../tapply(..count.., ..PANEL.., sum)[..PANEL..]), fill = ff.col) +
-#   scale_y_continuous(labels = scales::label_percent(accuracy = 1)) +
-#   xlab(attr(analytical$outcome, "label")) +
-#   ylab("") +
-#   facet_wrap(~ group, ncol = 2)
+gg.outcome.raw <- gg +
+  geom_bar(aes(dv, fill = dsex), position = "fill") +
+  coord_flip() +
+  scale_y_continuous(labels = scales::label_percent()) +
+  labs(fill = "Sex") +
+  xlab(attr(analytical$dv, "label")) +
+  ylab("")
+
+gg +
+  geom_bar(aes(dv2, fill = iv2), position = "fill") +
+  # coord_flip() +
+  scale_y_continuous(labels = scales::label_percent()) +
+  labs(fill = "Perceived leadership commitment") +
+  xlab(attr(analytical$dv2, "label")) +
+  ylab("")
