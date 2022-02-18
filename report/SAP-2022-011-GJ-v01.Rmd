@@ -107,9 +107,9 @@ These unknown answers were considered non-answers and treated as missing values 
 ## Analytical dataset
 
 This analysis will focus on two questions from the FEVS survey, where the main interest is employee satisfaction
-`r dv`
+(`r dv`)
 as the dependent variable and leadership commitment
-`r iv`
+(`r iv`)
 as the independent variable.
 As per the data cleaning process, the dependent variable was renamed to `dv` and the independent variable was renamed to `iv` in the analytical dataset.
 Additionally, in order to calculate the OR the survey responses were categorized as binary responses, where agreement was aggregated from the "agree" and "strongly agree" responses, in variables `dv2` and `iv2`.

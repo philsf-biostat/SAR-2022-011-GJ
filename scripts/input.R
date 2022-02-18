@@ -62,8 +62,8 @@ data.raw <- data.raw %>%
 
 # analytical dataset ------------------------------------------------------
 
-dv <- "(q1 -- I am given a real opportunity to improve my skills in my organization)"
-iv <- "(q21 -- Supervisors in my work unit support employee development)"
+dv <- "q1 -- I am given a real opportunity to improve my skills in my organization"
+iv <- "q21 -- Supervisors in my work unit support employee development"
 
 analytical <- data.raw %>%
   # select analytic variables
