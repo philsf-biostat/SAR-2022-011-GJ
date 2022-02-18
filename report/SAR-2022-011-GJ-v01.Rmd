@@ -1,7 +1,7 @@
 ---
-title: "[title]"
-subtitle: 'DOCUMENT: SAR-yyyy-NNN-XX-v01'
-author: '**From:** Felipe Figueiredo **To:** ___'
+title: "Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis"
+subtitle: 'DOCUMENT: SAR-2022-011-GJ-v01'
+author: '**From:** Felipe Figueiredo **To:** techsavvy32 (fiverr.com)'
 date: "`r Sys.Date()`"
 output:
   html_document:
@@ -37,7 +37,7 @@ panderOptions('table.split.table', 160)
 
 \newpage
 
-**[title]**
+**Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis**
 
 **Document version**
 
@@ -107,7 +107,7 @@ tab_inf %>%
 
 # References
 
-- **SAP-yyyy-NNN-XX-v01** -- Analytical Plan for [title]
+- **SAP-2022-011-GJ-v01** -- Analytical Plan for Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis
 
 # Appendix
 
@@ -120,14 +120,14 @@ tab_inf %>%
 
 ## Availability
 
-Both this document and the corresponding analytical plan (**SAP-yyyy-NNN-XX-v01**) can be downloaded in the following address:
+Both this document and the corresponding analytical plan (**SAP-2022-011-GJ-v01**) can be downloaded in the following address:
 
 <!-- This document can be downloaded in the following address: -->
 
-<https://philsf-biostat.github.io/SAR-yyyy-NNN-XX/>
+<https://philsf-biostat.github.io/SAR-2022-011-GJ/>
 
 <!-- The client has requested that this analysis be kept confidential. -->
-<!-- Both this document and the corresponding analytical plan (**SAP-yyyy-NNN-XX-v01**) are therefore not published online and only the title and year of the analysis will be included in the consultant's Portfolio. -->
+<!-- Both this document and the corresponding analytical plan (**SAP-2022-011-GJ-v01**) are therefore not published online and only the title and year of the analysis will be included in the consultant's Portfolio. -->
 <!-- The portfolio is available at: -->
 
 <!-- <https://philsf-biostat.github.io/> -->

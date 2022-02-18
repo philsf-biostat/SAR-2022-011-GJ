@@ -1,7 +1,7 @@
 ---
-title: "Analytical Plan for [title]"
+title: "Analytical Plan for Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis"
 subtitle: 'DOCUMENT: SAP-2022-011-GJ-v01'
-author: '**From:** Felipe Figueiredo **To:** ___'
+author: '**From:** Felipe Figueiredo **To:** techsavvy32 (fiverr.com)'
 date: "`r Sys.Date()`"
 output:
   html_document:
@@ -37,7 +37,7 @@ panderOptions('table.split.table', 160)
 
 \newpage
 
-**Analytical Plan for [title]**
+**Analytical Plan for Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis**
 
 **Document version**
 
@@ -68,6 +68,10 @@ kable(history)
 # Context
 
 ## Objectives
+
+Quantify the association between leadership commitment and
+employee professional development
+at NASA from the 2020 Federal Employee Viewpoint Survey, disregarding the FEVS survey weights.
 
 ## Hypotheses
 
@@ -168,7 +172,7 @@ This analysis will be performed using statistical software `R` version `r getRve
 
 # References
 
-- **SAR-2022-011-GJ-v01** -- [title]
+- **SAR-2022-011-GJ-v01** -- Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis
 <!-- - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). New York: Routledge. -->
 - Zarin DA, et al. The ClinicalTrials.gov results database -- update and key issues. N Engl J Med 2011;364:852-60 (<https://doi.org/10.1056/NEJMsa1012065>).
 - Gamble C, et al. Guidelines for the Content of Statistical Analysis Plans in Clinical Trials. JAMA. 2017;318(23):2337–2343 (<https://doi.org/10.1001/jama.2017.18556>).
