@@ -80,6 +80,12 @@ This analysis was performed using statistical software `R` version `r getRversio
 
 ## Study population and follow up
 
+The raw database contained `r Nobs_orig` surveys, of which `r N_incomplete` incomplete cases were removed.
+Of the complete cases `r N_drop3` participants did not agree nor disagree with at least one of the survey questions.
+These did not meet the inclusion criteria and were also removed from the analysis.
+After the inclusion and exclusion criteria were applied the final number of surveys in the analysis is `r Nobs_final`.
+Table 1 shows the characteristics of the surveys included in the final analysis.
+
 ```{r tab_desc}
 tab_desc %>%
   as_kable(
@@ -87,9 +93,9 @@ tab_desc %>%
   )
 ```
 
-```{r fig1, fig.cap="**Figure 1** caption"}
+```{r fig1, fig.cap="**Figure 1** Dichotomized survey responses, by sex."}
 # ![Age](../figures/outcome.png)
-# knitr::include_graphics("../figures/outcome.png", error = FALSE)
+knitr::include_graphics("../figures/outcome.png", error = FALSE)
 ```
 
 ## Inferential analysis
@@ -113,9 +119,9 @@ tab_inf %>%
 
 ## Exploratory data analysis
 
-```{r A1, fig.cap="**Figure A1** Distribution of age in the study population."}
+```{r A1, fig.cap="**Figure A1** Raw survey responses, by sex."}
 # ![Age](../figures/distr_age.png)
-# knitr::include_graphics("../figures/distr_age.png", error = FALSE)
+knitr::include_graphics("../figures/outcome_raw.png", error = FALSE)
 ```
 
 ## Availability
