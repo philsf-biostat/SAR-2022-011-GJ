@@ -106,10 +106,14 @@ The participants that answered 3 (Neither agree nor disagree) will be excluded.
 
 ## Variables
 
-For this case-control study the exposures were defined as whether or not the survey respondent perceived high levels of leadership commitment, expressed by the agreement with the question.
-Surveys that did not perceive high levels of commitment (answer 1-2) were classified in the unexposed group and surveys.
+For this case-control study the exposures were defined as high levels of leadership commitment.
+The group exposed to high levels of leadership commitment is defined as the survey respondent having expressed agreement with the question
+(`r iv`).
+Surveys in disagreement with this question were classified as the group not exposed to commitment.
 
-The cases and controls are defined in the primary outcome, described below.
+The cases and controls are defined in the primary outcome
+(`r dv`),
+described below.
 
 ### Primary and secondary outcomes
 
