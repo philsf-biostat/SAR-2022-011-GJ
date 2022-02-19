@@ -136,6 +136,9 @@ Odds ratios + chi-square:
 
 # Conclusions
 
+One third of NASA employees in this study are women.
+Both men and women tended to derive satisfaction at the workplace in similar rates in 2020.
+
 # References
 
 - **SAP-2022-011-GJ-v01** -- Analytical Plan for Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis
