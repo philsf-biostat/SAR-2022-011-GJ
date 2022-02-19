@@ -260,13 +260,13 @@ at the workplace in 2020.
 
 There is a positive association between leadership commitment and
 employee development
-where employees that perceive high levels of commitment they
+where employees that perceive high levels of commitment
 also perceive more opportunities for development,
 when compared with employees that do not perceive high leadership commitment.
-Men who are subject to high levels of commitment
+Men who are exposed to high levels of commitment in the workplace environment
 also perceive `r round(or_m_un[1])` times as much opportunities for development,
-when compared to men under less committed leadership.
-Similarly, women under highly committed leadership
+when compared to men working under less committed leadership.
+Similarly, women working under highly committed leadership
 also perceive `r round(or_f_un[1])` times as much opportunities for development,
 when compared to women under less committed leadership.
 
