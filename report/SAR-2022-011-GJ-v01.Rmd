@@ -125,6 +125,13 @@ tab_inf %>%
   )
 ```
 
+Odds ratios + chi-square:
+
+- Overall: `r format_or(or_o_un)`
+- Adjusted CMH: `r format_or(or_cmh_un)`
+- Men: `r format_or(or_m_un)`
+- Women: `r format_or(or_f_un)`
+
 # Observations and Limitations
 
 # Conclusions
