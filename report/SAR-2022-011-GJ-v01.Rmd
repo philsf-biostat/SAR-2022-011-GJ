@@ -143,7 +143,7 @@ If there was no interaction between sex and the association between leadership c
 ```{r tab_inf}
 tab_inf %>%
   as_kable(
-    caption = "**Table 2** caption"
+    caption = "**Table 2** Cross tabulation of dichotomized responses, overall and by sex of survey respondents."
   )
 ```
 
