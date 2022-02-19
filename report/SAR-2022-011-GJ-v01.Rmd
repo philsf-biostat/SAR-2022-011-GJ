@@ -165,13 +165,6 @@ when compared to the reference group.
 In this context it is recommended to report the estimates of effect for both sexes as the result of the analysis.
 This recommendation also accounts for confounding by sex.
 
-Odds ratios + chi-square:
-
-- Overall: `r format_or(or_o_un)`
-- Adjusted CMH: `r format_or(or_cmh_un)`
-- Men: `r format_or(or_m_un)`
-- Women: `r format_or(or_f_un)`
-
 # Observations and Limitations
 
 <!-- **Small number of controls** -->
