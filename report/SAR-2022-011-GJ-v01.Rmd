@@ -89,14 +89,32 @@ Table 1 shows the characteristics of the surveys included in the final analysis.
 ```{r tab_desc}
 tab_desc %>%
   as_kable(
-    caption = "**Table 1** caption"
+    caption = "**Table 1** Characteristics of the study population."
   )
 ```
+
+One third of the employees at NASA are women
+(`r analytical %>% summarise(prop_m = mean(dsex == "Female")) %>% pull %>% format.pct()`, Table 1).
+Both survey questions
+addressed in this study showed most NASA employees demonstrated high levels of satisfaction when the survey was conducted.
+The proportion of employees that agree or strongly agree with the satisfaction question
+(`r dv`)
+was `r analytical %>% summarise(prop_dv = mean(dv2 == "Agreement")) %>% pull %>% format.pct()`.
+The proportion of employees that agree or strongly agree with leadership commitment
+(`r iv`)
+was `r analytical %>% summarise(prop_iv = mean(iv2 == "Agreement")) %>% pull %>% format.pct()`.
+Figure 1 shows how both sexes answered these questions.
 
 ```{r fig1, fig.cap="**Figure 1** Dichotomized survey responses, by sex."}
 # ![Age](../figures/outcome.png)
 knitr::include_graphics("../figures/outcome.png", error = FALSE)
 ```
+
+Men and women tended to answer the satisfaction question at the same rates in 2020.
+Of the `r analytical %>% summarise(dv_a = sum(dv2 == "Agreement")) %>% pull` NASA employees that are in agreement with the satisfaction question,
+`r analytical %>% filter(dv2 == "Agreement") %>% summarise(prop_dv = mean(dsex == "Female")) %>% format.pct()` were women,
+and of the `r analytical %>% summarise(dv_a = sum(dv2 == "Disagreement")) %>% pull` employees that are in disagreement,
+women were `r analytical %>% filter(dv2 == "Disagreement") %>% summarise(prop_dv = mean(dsex == "Female")) %>% format.pct()` (Figure 1).
 
 ## Inferential analysis
 
