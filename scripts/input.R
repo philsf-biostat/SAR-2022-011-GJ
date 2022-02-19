@@ -51,6 +51,11 @@ data.raw <- data.raw %>%
 
 # labels ------------------------------------------------------------------
 
+# factor labels
+responses <- c("Strongly disagree", "Disagree", "Agree", "Strongly Agree")
+data.raw <- data.raw %>%
+  mutate(across(starts_with("q"), ~ factor(.x, labels = responses)))
+
 data.raw <- data.raw %>%
   set_variable_labels(
     dsex = "Sex",
@@ -70,8 +75,8 @@ analytical <- data.raw %>%
   mutate(
     dv = q1,  # DV
     iv = q21, # IV
-    dv2 = fct_collapse(dv, Disagreement=as.character(1:2), Agreement=as.character(4:5)),
-    iv2 = fct_collapse(iv, Disagreement=as.character(1:2), Agreement=as.character(4:5)),
+    dv2 = fct_collapse(dv, Disagreement=responses[1:2], Agreement=responses[3:4]),
+    iv2 = fct_collapse(iv, Disagreement=responses[1:2], Agreement=responses[3:4]),
   ) %>%
   select(
     id,
