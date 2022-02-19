@@ -116,7 +116,7 @@ Of the `r analytical %>% summarise(dv_a = sum(dv2 == "Agreement")) %>% pull` NAS
 and of the `r analytical %>% summarise(dv_a = sum(dv2 == "Disagreement")) %>% pull` employees that are in disagreement,
 women were `r analytical %>% filter(dv2 == "Disagreement") %>% summarise(prop_dv = mean(dsex == "Female")) %>% format.pct()` (Figure 1).
 
-## Inferential analysis
+## Association between leadership commitment and professional development
 
 ```{r tab_inf}
 tab_inf %>%
