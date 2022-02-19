@@ -147,6 +147,24 @@ tab_inf %>%
   )
 ```
 
+In order to assess whether or not there is an interaction between sex and the association under study we can compare the difference between the effects observed in each sex strata.
+The effect sizes for men
+(`r format_or(or_m_un)`)
+were different to the effect of women
+(`r format_or(or_f_un)`).
+For comparison, the relative difference between the effect of association on males and females is on the order of
+`r format.pct(or_diff_sex_adj_un)`,
+so we cannot rule out interaction between sex and the association in this study.
+It is recommended to report stratum-specific effects of association in this context.
+
+In summary, there is evidence of interaction with sex.
+This means that, when they perceive high levels of leadership commitment, both men and women appear to show different levels of
+telework satisfaction
+<!-- employee development -->
+when compared to the reference group.
+In this context it is recommended to report the estimates of effect for both sexes as the result of the analysis.
+This recommendation also accounts for confounding by sex.
+
 Odds ratios + chi-square:
 
 - Overall: `r format_or(or_o_un)`
