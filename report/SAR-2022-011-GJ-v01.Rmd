@@ -130,14 +130,14 @@ This means that when survey respondents perceive leadership commitment, they are
 <!-- telework satisfaction -->
 employee development
 as participants that do not perceive such commitment from leadership.
-Alternatively this translates to a `r round(or_o_un[1])-1`-fold increase in the group of interest when compared to the reference group.
+Alternatively this translates to a `r round(or_o_un[1])-1`-fold increase in the group that perceives high levels of leadership commitment when compared to the group that does not perceive such levels of commitment from their management.
 
 In order to control for a possible confounder between the association and the sex of the study participant, the analysis was stratified by sex.
 The Mantel-Haenszel adjustment for the OR was similar to the overall unadjusted effect estimate
 (adjusted `r format_or(or_cmh_un)`).
-For comparison, the relative difference between the overall effect of association and the adjusted effect is on the order of
+For comparison, the relative difference between the overall unadjusted effect of association and the adjusted effect is on the order of
 `r format.pct(or_diff_o_adj_un)`,
-so we may rule out confounding between sex the association in this study.
+so we may rule out confounding between sex and this association.
 If there was no interaction between sex and the association between leadership commitment and satisfaction it would be sufficient to report the unadjusted OR.
 
 ```{r tab_inf}
@@ -161,7 +161,7 @@ In summary, there is evidence of interaction with sex.
 This means that, when they perceive high levels of leadership commitment, both men and women appear to show different levels of
 telework satisfaction
 <!-- employee development -->
-when compared to the reference group.
+when compared to the group that does not perceive such levels of commitment from their management.
 In this context it is recommended to report the estimates of effect for both sexes as the result of the analysis.
 This recommendation also accounts for confounding by sex.
 
