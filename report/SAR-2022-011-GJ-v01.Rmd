@@ -118,6 +118,28 @@ women were `r analytical %>% filter(dv2 == "Disagreement") %>% summarise(prop_dv
 
 ## Association between leadership commitment and professional development
 
+A binary categorization was performed between the two survey responses, where "Agreement" aggregates all answers "Agree" and "Strongly agree".
+In order to compare how the responses to the leadership commitment and
+<!-- telework satisfaction -->
+employee development
+relate to each other, a cross-tabulation of the dichotomized answers from each study participant is shown in Table 2.
+This cross tabulation shows that the largest proportion of survey respondents are in agreement, simultaneously, to both questions.
+
+The overall (unadjusted) effect of the association was significant (`r format_or(or_o_un)`).
+This means that when survey respondents perceive leadership commitment, they are `r round(or_o_un[1])` times as likely to report
+<!-- telework satisfaction -->
+employee development
+as participants that do not perceive such commitment from leadership.
+Alternatively this translates to a `r round(or_o_un[1])-1`-fold increase in the group of interest when compared to the reference group.
+
+In order to control for a possible confounder between the association and the sex of the study participant, the analysis was stratified by sex.
+The Mantel-Haenszel adjustment for the OR was similar to the overall unadjusted effect estimate
+(adjusted `r format_or(or_cmh_un)`).
+For comparison, the relative difference between the overall effect of association and the adjusted effect is on the order of
+`r format.pct(or_diff_o_adj_un)`,
+so we may rule out confounding between sex the association in this study.
+If there was no interaction between sex and the association between leadership commitment and satisfaction it would be sufficient to report the unadjusted OR.
+
 ```{r tab_inf}
 tab_inf %>%
   as_kable(
@@ -133,6 +155,13 @@ Odds ratios + chi-square:
 - Women: `r format_or(or_f_un)`
 
 # Observations and Limitations
+
+<!-- **Small number of controls** -->
+
+<!-- The number of employees that disagree with the satisfaction question -->
+<!-- (`r dv`) -->
+<!-- is very small compared with the group that agrees with it. -->
+<!-- This analysis may be critiqued for lack -->
 
 # Conclusions
 
