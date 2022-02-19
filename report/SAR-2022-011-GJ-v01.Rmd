@@ -174,7 +174,9 @@ This recommendation also accounts for confounding by sex.
 # Conclusions
 
 One third of NASA employees in this study are women.
-Both men and women tended to derive similar rates of satisfaction at the workplace in 2020.
+Both men and women tended to
+perceive similar rates of opportunities
+at the workplace in 2020.
 
 There is a positive association between leadership commitment and
 employee development
