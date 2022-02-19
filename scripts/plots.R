@@ -1,5 +1,4 @@
 # setup -------------------------------------------------------------------
-# library(survminer)
 
 ff.col <- "steelblue" # good for single groups scale fill/color brewer
 ff.pal <- "Paired"    # good for binary groups scale fill/color brewer
@@ -31,7 +30,7 @@ gg.outcome.raw <- gg +
 
 gg +
   geom_bar(aes(dv2, fill = iv2), position = "fill") +
-  # coord_flip() +
+  coord_flip() +
   scale_y_continuous(labels = scales::label_percent()) +
   labs(fill = "Perceived leadership commitment") +
   xlab(attr(analytical$dv2, "label")) +
