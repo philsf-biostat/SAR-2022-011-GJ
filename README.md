@@ -33,11 +33,11 @@ Statistical Analysis for techsavvy32 (fiverr.com, 2022)
 
 This analysis is part of a larger project and is supported by other analyses, linked below.
 
-**Association between leadership commitment and professional development at NASA (2020): sex-adjusted stratified analysis**
+**Association between leadership commitment and professional development at NASA (2020): weighted sex-adjusted stratified analysis**
 
 <https://philsf-biostat.github.io/SAR-2022-008-GJ/>
 
-**Association between leadership commitment and telework satisfaction at NASA (2020): sex-adjusted stratified analysis**
+**Association between leadership commitment and telework satisfaction at NASA (2020): weighted sex-adjusted stratified analysis**
 
 <https://philsf-biostat.github.io/SAR-2022-007-GJ/>
 

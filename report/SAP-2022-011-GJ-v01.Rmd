@@ -222,7 +222,7 @@ The results from this analysis might not be directly comparable to that one give
 # References
 
 - **SAR-2022-011-GJ-v01** -- Association between leadership commitment and professional development at NASA (2020): unweighted sex-adjusted stratified analysis
-- **SAR-2022-008-GJ-v02** -- Association between leadership commitment and professional development at NASA (2020): sex-adjusted stratified analysis
+- **SAR-2022-008-GJ-v02** -- Association between leadership commitment and professional development at NASA (2020): weighted sex-adjusted stratified analysis
 - OPM (2020). 2020 Federal Employee Viewpoint Survey -- Technical report (<https://www.opm.gov/fevs/reports/technical-reports/>).
 <!-- - Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). New York: Routledge. -->
 - Zarin DA, et al. The ClinicalTrials.gov results database -- update and key issues. N Engl J Med 2011;364:852-60 (<https://doi.org/10.1056/NEJMsa1012065>).
@@ -236,11 +236,11 @@ This document was elaborated following recommendations on the structure for Stat
 
 This analysis is part of a larger project and is supported by other analyses, linked below.
 
-**Association between leadership commitment and professional development at NASA (2020): sex-adjusted stratified analysis**
+**Association between leadership commitment and professional development at NASA (2020): weighted sex-adjusted stratified analysis**
 
 <https://philsf-biostat.github.io/SAR-2022-008-GJ/>
 
-**Association between leadership commitment and telework satisfaction at NASA (2020): sex-adjusted stratified analysis**
+**Association between leadership commitment and telework satisfaction at NASA (2020): weighted sex-adjusted stratified analysis**
 
 <https://philsf-biostat.github.io/SAR-2022-007-GJ/>
 
